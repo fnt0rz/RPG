@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Cursor : MonoBehaviour {
 
-	//TEST
-
 	CameraRaycaster cameraRaycaster;
 
 	// Use this for initialization
