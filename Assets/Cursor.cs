@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Cursor : MonoBehaviour {
 
+	//TEST
+
 	CameraRaycaster cameraRaycaster;
 
 	// Use this for initialization
@@ -13,6 +15,7 @@ public class Cursor : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		
 		print(cameraRaycaster.layerHit);
 	}
 }
