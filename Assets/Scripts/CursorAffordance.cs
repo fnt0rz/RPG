@@ -15,7 +15,7 @@ public class CursorAffordance : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		switch (cameraRaycaster.layerHit)
+		switch (cameraRaycaster.currentLayerHit)
 		{
 			case Layer.Walkable:
 				Cursor.SetCursor(walkCursor,cursorHotSpot,CursorMode.Auto);
