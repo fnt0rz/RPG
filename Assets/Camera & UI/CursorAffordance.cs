@@ -18,13 +18,13 @@ public class CursorAffordance : MonoBehaviour {
 		switch (newLayer)
 		{
 			case Layer.Walkable:
-				Cursor.SetCursor(walkCursor,cursorHotSpot,CursorMode.Auto);
+				Cursor.SetCursor(walkCursor ,cursorHotSpot ,CursorMode.Auto);
 				break;
 			case Layer.Enemy:
-				Cursor.SetCursor(attackCursor,cursorHotSpot,CursorMode.Auto);
+				Cursor.SetCursor(attackCursor ,cursorHotSpot ,CursorMode.Auto);
 				break;
 			default:
-				Cursor.SetCursor(unknownCursor,cursorHotSpot,CursorMode.Auto);
+				Cursor.SetCursor(unknownCursor ,cursorHotSpot ,CursorMode.Auto);
 				return;
 		}
 		
