@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CursorAffordance : MonoBehaviour {
 
-	[SerializeField] Texture2D walkCursor,attackCursor,unknownCursor = null;
-	[SerializeField] Vector2 cursorHotSpot = new Vector2(96f,96f);
+	[SerializeField] Texture2D walkCursor, attackCursor, unknownCursor = null;
+	[SerializeField] Vector2 cursorHotSpot = new Vector2(0f,0f);
 	CameraRaycaster cameraRaycaster;
 
 	// Use this for initialization
